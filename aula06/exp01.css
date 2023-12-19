@@ -1,0 +1,79 @@
+body,html{
+
+    background-color: blue;
+    font-family: georgia;
+
+}
+
+.box{
+
+    background-color: black;
+    border: 10px solid black;
+    height: 690px;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+                         "menue conteudo menud"
+                         "rodape rodape rodape";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 150px 1fr 150px;
+
+}
+.titulo{
+
+    background-color: #205375;
+
+    width: auto;
+    grid-area: titulo;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+
+}
+.menue{
+
+    background-color: rgb(97, 172, 233);
+    grid-area: menue;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.conteudo{
+
+    background-color: rgb(0, 150, 255);
+    grid-area: conteudo;
+    font-size: 20px;
+    padding: 5px 5px;
+
+}
+.menud{
+
+    background-color: rgb(250, 188, 160);
+    grid-area: menud;
+    font-size: 20px;
+    text-align: center;
+}
+.rodape{
+
+    background-color: #d6886e;
+    grid-area: rodape;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.tope1{
+
+    background-color: rgb(90, 195, 236);
+}
+
+.tope2{
+
+    background-color: skyblue;
+}
+
+.tope3{
+
+    background-color: rgb(160, 215, 250);
+}
